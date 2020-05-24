@@ -184,11 +184,12 @@ footer{
   clear:left;
 }
 
-.menu-icon {
+.container .menu-icon {
+
   color: white;
   float: right;
-  font-size: 25px;
-  padding: 21px 0;
+  font-size: 40px;
+  padding: 28px 0;
   /* displayをnoneに指定してください */
   display:none;
 }
