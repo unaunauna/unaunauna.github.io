@@ -8,7 +8,8 @@ a {
 }
 
 .container{
-  width:1170px;
+  width:100%;
+  max-width:1170px;
   padding:0 15px;
   margin:auto;
 }
@@ -27,6 +28,7 @@ a {
 
 .top-wrapper p{
   opacity:0.7;
+  font-size:30px;
 }
 
 .btn{
@@ -61,6 +63,8 @@ header{
   height:100px;
   background-color: #ffe4e1;
   position:fixed;
+  background-size:cover;
+  width:100%;
   top:0;
   z-index: 10;
 }
@@ -84,7 +88,6 @@ header{
   padding:10px 10px;
   color:white;
   width:120px;
-  height:20px;
   display:block;
   background-color:  #55acee;
   opacity:0.8;
@@ -98,7 +101,6 @@ header{
 }
 
 .favorite-wrapper{
-  height:500px;
   padding-bottom:80px;
   background-color: #f7f7f7;
   float:left;
@@ -107,20 +109,27 @@ header{
 .heading{
   padding:60px 0 30px 0;
   color: #5f5d60;
+  display:block;
 }
 
 .heading h2{
   font-weight:normal;
+  display:inline-block;
 }
 
 .heading h3{
   font-weight: normal;
 }
 
+.favorites{
+  width:100%;
+  margin:0 auto;
+}
 .favorite {
-  width: 22%;
+  width: 25%;
   float:left;
   padding:0 10px;
+  text-align: center;
 }
 
 .favorite-icon img{
@@ -169,4 +178,17 @@ footer p{
 
 footer{
   padding-top:30px;
+}
+
+.clear{
+  clear:left;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display:none;
 }
